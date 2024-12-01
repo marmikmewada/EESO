@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E.E.S.O. nº: 434 General Las Heras | Escuela de Educación Secundaria Orientada</title>
+    <meta name="description" content="Escuela de Educación Secundaria Orientada de la ciudad de Rosario, provincia de Santa Fe, Argentina">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0d6efd">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --accent-color: #ffc107;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95) !important;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/p/AF1QipO52oRuEp0rfpaXJYvB8ux1g7mFBshGqh6Qya_J=s1360-w1360-h1020') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--primary-color);
+        }
+        .card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .btn-floating {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+        }
+        .btn-floating i {
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="https://i.ibb.co/Ybspc08/Screenshot-20241119-135616-4.jpg" alt="Logo E.E.S.O. nº: 434" height="40" class="me-2">
+                    <span class="fw-bold text-primary">E.E.S.O. nº: 434</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#orientaciones">Orientaciones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="container text-center">
+                <h1 class="display-3 fw-bold mb-4">E.E.S.O. nº: 434 "General Las Heras"</h1>
+                <p class="lead mb-4">Formando el futuro de Rosario desde 1983</p>
+                <a href="#about" class="btn btn-primary btn-lg">Conócenos</a>
+            </div>
+        </section>
+
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Sobre Nosotros</h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipO52oRuEp0rfpaXJYvB8ux1g7mFBshGqh6Qya_J=s1360-w1360-h1020" alt="Escuela General Las Heras 434" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-4">Nuestra Misión</h3>
+                        <p>En la escuela "General Las Heras" de la ciudad de Rosario, provincia de Santa Fe, nos dedicamos a formar integralmente a nuestros estudiantes en un ambiente de alegría, pluralidad, amor y respeto.</p>
+                        <p>Fomentamos el desarrollo de habilidades y competencias, la creatividad y el juicio crítico, educando en valores para que nuestros alumnos sean capaces de fructificar sus talentos y enfrentar los desafíos del mundo actual.</p>
+                        <p>Nuestro compromiso es fortalecer los vínculos con las familias, reconociendo que la educación es una responsabilidad compartida entre la escuela y el hogar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="orientaciones" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Nuestras Orientaciones</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Economía y Administración</h3>
+                                <p class="card-text">Prepara a los estudiantes para comprender y participar en el mundo de los negocios y la economía, desarrollando habilidades en contabilidad, gestión y análisis financiero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title">Educación Física</h3>
+                                <p class="card-text">Forma a los alumnos en el campo de la actividad física y el deporte, promoviendo un estilo de vida saludable y desarrollando competencias para la enseñanza y la gestión deportiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="noticias" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Últimas Noticias</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=Evento+Deportivo" class="card-img-top" alt="Evento Deportivo">
+                            <div class="card-body">
+                                <h5 class="card-title">Gran éxito en el torneo intercolegial</h5>
+                                <p class="card-text">Nuestros estudiantes obtuvieron el primer lugar en varias categorías del torneo deportivo intercolegial.</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=Feria+de+Ciencias" class="card-img-top" alt="Feria de Ciencias">
+                            <div class="card-body">
+                                <h5 class="card-title">Feria de Ciencias 2023</h5>
+                                <p class="card-text">Los proyectos presentados por nuestros alumnos en la feria de ciencias recibieron reconocimientos a nivel provincial.</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="https://via.placeholder.com/300x200.png?text=Graduación" class="card-img-top" alt="Graduación">
+                            <div class="card-body">
+                                <h5 class="card-title">Ceremonia de Graduación 2023</h5>
+                                <p class="card-text">Celebramos los logros de nuestra última promoción de graduados en una emotiva ceremonia.</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Contacto</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-muted">&copy; 2023 E.E.S.O. nº: 434 "General Las Heras"</p>
+                    <p class="text-muted">Calle Falucho 238 Bis, Rosario, Argentina</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://web.facebook.com/lasheras.diariodigital" target="_blank" rel="noopener" class="text-muted me-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lasherasdiariodigital/" target="_blank" rel="noopener" class="text-muted">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=543412752407" class="btn btn-success btn-floating" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    var navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
